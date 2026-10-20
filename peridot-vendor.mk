@@ -2162,6 +2162,8 @@ PRODUCT_PACKAGES += \
     mlipayd
 
 PRODUCT_PACKAGES += \
+    vendor_lib_rfsa_adsp_capi_elus_rx_so \
+    vendor_lib_rfsa_adsp_capi_elus_tx_so \
     vendor_lib_rfsa_adsp_libCalculator_skel_so \
     vendor_lib_rfsa_adsp_libSnpeHtpV75Skel_so \
     vendor_lib64_camera_aon_front_1_pb \

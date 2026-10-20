@@ -34536,6 +34536,20 @@ cc_prebuilt_binary {
 }
 
 install_symlink {
+    name: "vendor_lib_rfsa_adsp_capi_elus_rx_so",
+    soc_specific: true,
+    installed_location: "lib/rfsa/adsp/capi_elus_rx.so",
+    symlink_target: "/odm/lib/rfsa/adsp/capi_elus_rx.so",
+}
+
+install_symlink {
+    name: "vendor_lib_rfsa_adsp_capi_elus_tx_so",
+    soc_specific: true,
+    installed_location: "lib/rfsa/adsp/capi_elus_tx.so",
+    symlink_target: "/odm/lib/rfsa/adsp/capi_elus_tx.so",
+}
+
+install_symlink {
     name: "vendor_lib_rfsa_adsp_libCalculator_skel_so",
     soc_specific: true,
     installed_location: "lib/rfsa/adsp/libCalculator_skel.so",
